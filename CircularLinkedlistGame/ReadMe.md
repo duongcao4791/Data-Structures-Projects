@@ -4,9 +4,14 @@ Starting at the prisoner in the first position, he would then count k prisoners 
 
 For example, if there were six prisoners, the elimination process would proceed as follows (with step k=2): 1->2->3->4->5->6 
  
-Start counting from 1.    1->2...3 Prisoner 3 eliminated; 
+Start counting from 1.    1->2...3 Prisoner 3 eliminated;
+
 Continue counting from 4. 4->5...6 Prisoner 6 eliminated; 
+
 Continue counting from 1. 1->2...4 Prisoner 4 eliminated; 
+
 Continue counting from 5. 5->1...2 Prisoner 2 eliminated; 
+
 Continue counting from 5. 5->1...5 Prisoner 5 eliminated; 
+
 1 is the lucky winner.
